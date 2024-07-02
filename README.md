@@ -1,4 +1,4 @@
-# Temporal-Relational Cross-Transformers (TRX)
+# Distillation from Mixed-Source Domain for Cross-Domain Few-shot Action Recognition（MDSD）
 
 
 This repo contains code for the method introduced in the paper:
