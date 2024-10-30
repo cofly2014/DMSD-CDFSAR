@@ -40,11 +40,14 @@ The split method in https://github.com/ffmpbgrnn/CMN for Kinetics and SSv2, whic
 can also be used as reference.
 
 ## How to train
-In the pre-training
-stage, we simultaneously train the backbone as well as the
+### In the pre-training stage
+We simultaneously train the backbone as well as the
 DTE (student), DTD, and S-CLS in the Original Source
-Branch. In the meta-training stage, we train the modules
-in both branches: (1) the DTE (student), DTD, and S-CLS
+Branch. 
+### In the meta-training stage
+We train the modules
+in both branches: 
+(1) the DTE (student), DTD, and S-CLS
 in the Original Source Branch. (2) the DEM and S-CLS
 in the Mixed-Source Branch. We also use the N-way K-
 shot meta-training classifier M-CLS in both branches. Then,
