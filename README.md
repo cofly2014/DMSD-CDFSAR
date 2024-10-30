@@ -34,9 +34,10 @@ The structure of the final model in the meta-testing stage is based on the targe
 
 ## Splits
 This paper uses the Kinetics as the source domain dataset. The split method follows the SEEN. 
-And uses UCF101, HMDB51, SSV2, Diving48, and RareAct as the target domain. The split method for UCF101, HMDB51, SSV2 also follow the SEEN, and the split methods for Diving48 and RareAct follow the CDFSL-V. 
+And uses UCF101, HMDB51, SSV2, Diving48, and RareAct as the target domain. The split method for UCF101, HMDB51, SSV2 also follow the [SEEN](https://www.sciencedirect.com/science/article/abs/pii/S1077314223001170), 
+and the split methods for Diving48 and RareAct follow the [CDFSL-V](https://github.com/Sarinda251/CDFSL-V). 
 
-The split method in https://github.com/ffmpbgrnn/CMN for Kinetics and SSv2, which are provided by the authors of the authors of [CMN](https://openaccess.thecvf.com/content_ECCV_2018/papers/Linchao_Zhu_Compound_Memory_Networks_ECCV_2018_paper.pdf) (Zhu and Yang, ECCV 2018). We also used the split from [OTAM](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cao_Few-Shot_Video_Classification_via_Temporal_Alignment_CVPR_2020_paper.pdf) (Cao et al. CVPR 2020) for SSv2, and splits from [ARN](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500511.pdf) (Zhang et al. ECCV 2020) for HMDB and UCF.  These are all the in the splits folder.
+The split method in [CMN](https://github.com/ffmpbgrnn/CMN) for Kinetics and SSv2, which are provided by the authors of the authors of [CMN](https://openaccess.thecvf.com/content_ECCV_2018/papers/Linchao_Zhu_Compound_Memory_Networks_ECCV_2018_paper.pdf) (Zhu and Yang, ECCV 2018). We also used the split from [OTAM](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cao_Few-Shot_Video_Classification_via_Temporal_Alignment_CVPR_2020_paper.pdf) (Cao et al. CVPR 2020) for SSv2, and splits from [ARN](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500511.pdf) (Zhang et al. ECCV 2020) for HMDB and UCF.  These are all the in the splits folder.
 can also be used as reference.
 
 ## How to train
