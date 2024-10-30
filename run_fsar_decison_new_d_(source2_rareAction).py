@@ -184,7 +184,7 @@ def parse_command_line():
         args.scratch_data = "/mnt/mydata/video-origin-frames/"
         args.trainlist = os.path.join(args.scratch, "splits/diving48")
         args.path = os.path.join(args.scratch_data, "diving48-frames-v1/")
-    if args.source_dataset == "rareAct":
+    elif args.source_dataset == "rareAct":
         args.scratch_data = "/home/guofei/dataset_download/"
         args.trainlist = os.path.join(args.scratch, "splits/rareAction")
         args.path = os.path.join(args.scratch_data, "RareAct_cut_frames/")

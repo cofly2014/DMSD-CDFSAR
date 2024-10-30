@@ -7,7 +7,7 @@ x = ['K100', 'K200', 'K300', 'K400']
 UCF101 = [81.9, 87.1, 87.6, 89.6]
 Diving48 = [42.3, 41.4, 42.2, 42.7]
 HMDB51 = [54.9, 58.2, 62.4, 63.4]
-RareAct = [54.2, 59.4, 58.5, 60.0]
+RareAct = [53.3, 59.4, 58.5, 60.0]
 SSV2 = [32.1, 33.0, 34.3, 34.8]
 
 fig = plt.figure(figsize=(6,6), dpi=200)
@@ -41,7 +41,7 @@ plt.legend(['UCF101', 'Diving48', 'HMDB51', 'RareAct', 'SSV2'],loc='upper left')
 plt.grid(linestyle='-.')
 #plt.gcf().set_facecolor(np.ones(3)* 240 / 255)   # 生成画布的大小
 #plt.savefig('/home/guofei/few_shot_accuracy-ssv2.jpg', dpi=300)
-plt.savefig('./sdNumber2tdAccuracy.jpg', dpi=200)
+plt.savefig('./sdNumber2tdAccuracy.jpg', dpi=300)
 plt.show()  # 显示折线图
 
 #plt.xlim(a, b)
